@@ -110,7 +110,6 @@ export function FoodSuggestionScreen() {
       image: "/placeholder.svg?height=120&width=120",
     },
   ]
-  )
 
   // Filter foods based on search query and active tab\
   const filterFoods = (foods: typeof foodSuggestions, category: string) => {
